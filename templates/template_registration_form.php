@@ -9,27 +9,27 @@ if( is_user_logged_in() ){
     <input type="hidden" name="action" value="custom-register-user">
     <div class="form_row">
       <label for="first-name"><?php _e( 'First Name', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="first-name" type="Text" name="first-name" required>
+      <input id="first-name" type="text" name="first-name" required>
     </div>
 
     <div class="form_row">
       <label for="last-name"><?php _e( 'Last Name', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="last-name" type="Text" name="last-name" required>
+      <input id="last-name" type="text" name="last-name" required>
     </div>
 
     <div class="form_row">
       <label for="email"><?php _e( 'Email', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="email" type="Text" name="email" required>
+      <input id="email" type="text" name="email" required>
     </div>
 
     <div class="form_row">
       <label for="password"><?php _e( 'Password', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="password" type="Text" name="password" required>
+      <input id="password" type="password" name="password" required>
     </div>
 
     <div class="form_row">
       <label for="password2"><?php _e( 'Password Again', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="password2" type="Text" name="password2" required>
+      <input id="password2" type="password" name="password2" required>
     </div>
 
     <div class="form_row">

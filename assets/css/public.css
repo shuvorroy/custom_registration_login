@@ -1,0 +1,14 @@
+.form_row label {
+    display: inline-block;
+    width: 200px;
+}
+
+.form_row sup {
+    color: #f00;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.form_row {
+    margin: 8px auto;
+}

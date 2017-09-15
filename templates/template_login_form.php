@@ -13,10 +13,10 @@ if( is_user_logged_in() ){
     </div>
     <div class="form_row">
       <label for="user_password"><?php _e( 'Password', 'custom_login' ); ?><sup>*</sup></label>
-      <input id="user_password" type="text" name="user_password" required>
+      <input id="user_password" type="password" name="user_password" required>
     </div>
     <div class="form_row">
-      <label for="remember"><?php _e( 'Remember Me', 'custom_login' ); ?><sup>*</sup></label>
+      <label for="remember"><?php _e( 'Remember Me', 'custom_login' ); ?></label>
       <input id="remember" type="checkbox" name="remember" value="1">
     </div>
     <div class="form_row">
