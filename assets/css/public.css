@@ -12,3 +12,11 @@
 .form_row {
     margin: 8px auto;
 }
+
+.success-message{
+  color: green;
+}
+
+.failed-message{
+  color: red;
+}
