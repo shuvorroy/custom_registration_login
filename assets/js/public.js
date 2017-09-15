@@ -18,7 +18,7 @@ $(document).ready(function($){
 			success: function(ret) {
         console.log(ret);
 				if(ret.success == 1) { // success
-					$('.response-message').addClass('success-message').show().text(ret.message)
+					$('.response-message').addClass('success-message').removeClass('failed-message').show().text(ret.message)
 					if(ret.go_to != '') { setTimeout(function(){window.location.href=ret.go_to},1000) }
 				}
 				else{
@@ -44,7 +44,7 @@ $(document).ready(function($){
 			success: function(ret) {
         console.log(ret);
 				if(ret.success == 1) { // success
-					$('.response-message').addClass('success-message').show().text(ret.message)
+					$('.response-message').addClass('success-message').removeClass('failed-message').show().text(ret.message)
 					if(ret.go_to != '') { setTimeout(function(){window.location.href=ret.go_to},1000) }
 				}
 				else{
