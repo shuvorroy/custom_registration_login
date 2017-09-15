@@ -33,9 +33,9 @@ if( is_user_logged_in() ){
     </div>
 
     <div class="form_row">
-  		<input id="submit" type="submit" value="<?php _e( 'Register', 'custom_login' ); ?>"  required>
-  		<div class="response-message" style="display: none;"></div>
+      <input id="submit" type="submit" value="<?php _e( 'Register', 'custom_login' ); ?>">
+      <div class="response-message" style="display: none;"></div>
     </div>
   </form>
 
-<?php }
+  <?php }

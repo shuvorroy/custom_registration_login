@@ -20,9 +20,9 @@ if( is_user_logged_in() ){
       <input id="remember" type="checkbox" name="remember" value="1">
     </div>
     <div class="form_row">
-  		<input id="submit" type="submit" value="<?php _e( 'Login', 'custom_login' ); ?>"  required>
-  		<div class="response-message" style="display: none;"></div>
+      <input id="submit" type="submit" value="<?php _e( 'Login', 'custom_login' ); ?>">
+      <div class="response-message" style="display: none;"></div>
     </div>
   </form>
 
-<?php }
+  <?php }
